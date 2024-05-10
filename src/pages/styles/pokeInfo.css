@@ -1,0 +1,395 @@
+.pokeinfo__header {
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: url(../styles/banner.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #D93F3F;
+    box-shadow: 0 20px 20px .01px #949494ad;
+}
+
+.pokeinfo {
+    background-color: white;
+    width: 100vw;
+    height: 100%;
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'initial';
+    scroll-behavior: smooth;
+    
+}
+.pokeinfo__container {
+    width: 50%;
+    height: fit-content;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #c0c0c0;
+}
+.decoration {
+    width: 100%;
+    height: 110px;
+    background: url(../../../public/assets/sidepokeball2.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 5.5px 5.5px 0 0;
+}
+.pokeinfo figure {
+    position: absolute;
+    top: 10px;
+}
+.pokeinfo img {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+} 
+.pokeinfo__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.pokeinfo__number {
+    border: 1.5px solid rgb(192, 192, 192);
+    font-size: 2rem;
+    padding: 5px 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px 1px #dfdfdfdc;
+}
+.pokename {
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.pokeinfo__data {
+    display: flex;
+    column-gap: 20px;
+    margin: 10px 0;
+}
+.data__title {
+    color: #3b3b3b;
+}
+.data__content {
+    font-size: 1.8rem;
+}
+.pokeinfo__content {
+    min-width: 265px;
+    width: 97%;
+    max-height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 10px;
+    padding: 10px 0;
+}
+.content__type {
+    margin: 15px 0;
+    min-width: 250px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content__type ul {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px 0;
+}
+.pokeinfo__title {
+    margin: 30px 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+/* Skills */
+.pokeinfo__skill {
+    border: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0 10px;
+    font-size: .8rem;
+}
+/* Skills */
+
+/* Movement */
+.pokeinfo__container2 {
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.pokeinfo__moves {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    list-style: none;
+}
+.pokeinfo__moves li {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #afafaf;
+    padding: 5px 8px;
+    width: 30%;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stats__bar {
+    background-color: #afafaf;
+    height: 30px;
+    width: 100%;
+}
+.stats__prog {
+    background-color: orange;
+    height: 30px;
+    width: 100%;
+    z-index: 15;
+}    
+
+.decoration-grass {
+    background-color: green;
+}
+.decoration-fire {
+    background-color: red;
+}
+.decoration-water {
+    background-color: dodgerblue;
+}
+.decoration-bug {
+    background-color: lightgreen;
+}
+.decoration-normal {
+    background-color: sienna;
+}
+.decoration-ghost,
+.decoration-poison {
+    background-color: #7f01fe;
+}
+.decoration-electric {
+    background-color: #ffff33;
+}
+.decoration-ground {
+    background-color: #684132;
+}
+.decoration-fairy {
+    background-color: #fd287e;
+}
+.decoration-fighting {
+    background-color: #BA1418;
+}
+.decoration-psychic {
+    background-color: #301904;
+}
+.decoration-rock {
+   background-color: #6f6261;
+}
+
+
+.pokeinfo-grass {
+    border-color: green;
+}
+.pokeinfo-fire {
+    border-color: red;
+}
+.pokeinfo-water {
+    border-color: dodgerblue;
+}
+.pokeinfo-bug {
+    border-color: lightgreen;
+}
+.pokeinfo-normal {
+    border-color: sienna;
+}
+.pokeinfo-ghost,
+.pokeinfo-poison {
+    border-color: #7f01fe;
+}
+.pokeinfo-electric {
+    border-color: #ffff33;
+}
+.pokeinfo-ground {
+    border-color: #684132;
+}
+.pokeinfo-fairy {
+    border-color: #fd287e;
+}
+.pokeinfo-fighting {
+    border-color: #BA1418;
+}
+.pokeinfo-psychic {
+    border-color: #301904;
+}
+.pokeinfo-rock {
+    border-color: #6f6261;
+}
+
+
+.pokename-grass {
+    color: green;
+}
+.pokename-fire {
+    color: red;
+}
+.pokename-water {
+    color: dodgerblue;
+}
+.pokename-bug {
+    color: lightgreen;
+}
+.pokename-normal {
+    color: sienna;
+}
+.pokename-ghost,
+.pokename-poison {
+    color: #7f01fe;
+}
+.pokename-electric {
+    color: #ffff33;
+}
+.pokename-ground {
+    color: #684132;
+}
+.pokename-fairy {
+    color: #fd287e;
+}
+.pokename-fighting {
+    color: #BA1418;
+}
+.pokename-psychic {
+    color: #301904;
+}
+.pokename-rock {
+   color: #6f6261;
+}
+.type--grass {
+    background: url(../../../public/assets/grass.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--fire {
+    background: url(../../../public/assets/fire.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--water {
+    background: url(../../../public/assets/water.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--bug {
+    background: url(../../../public/assets/bug.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--normal {
+    background: url(../../../public/assets/normal.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--ghost {
+    background: url(../../../public/assets/ghost.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--poison {
+    background: url(../../../public/assets/posion.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--electric {
+    background: url(../../../public/assets/electric.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--ground {
+    background: url(../../../public/assets/ground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--fairy {
+    background: url(../../../public/assets/fairy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--fighting {
+    background: url(../../../public/assets/fighting.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--psychic {
+    background: url(../../../public/assets/psychic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}
+.type--rock {
+    background: url(../../../public/assets/rock.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100%;
+}

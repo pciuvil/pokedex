@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.pagination__btn {
+    border: none;
+    background-color: #FFFFFF; 
+    padding: 0 20px;
+}
+
+.pagination__btn:hover {
+    background-color: #DD1A1A;
+    border-color: #DD1A1A;
+}
+
+.pagination__number {
+    list-style: none;
+}
+
+.pagination__number button {
+    border: none;
+   background-color: #FFFFFF; 
+    padding: 0 20px;
+}
+
+.pagination__number button:hover {
+    background-color: #DD1A1A;
+    border-color: #DD1A1A;
+}

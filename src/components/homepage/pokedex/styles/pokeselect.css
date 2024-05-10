@@ -1,0 +1,7 @@
+.option__select {
+    width:400px
+}
+
+.option__select:hover {
+   color: red;
+}
